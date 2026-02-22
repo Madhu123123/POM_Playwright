@@ -16,20 +16,27 @@
     "clean": "rimraf allure-results allure-report test-results"
   },
   "dependencies": {
-    "exceljs": "^4.4.0",
+    "@faker-js/faker": "^8.4.1",
     "dotenv": "^16.4.5",
-    "@faker-js/faker": "^8.4.1"
+    "exceljs": "^4.4.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.42.1",
-    "typescript": "^5.4.5",
-    "ts-node": "^10.9.2",
     "@types/node": "^20.12.7",
-    "allure-playwright": "^3.0.0-beta.7",
+    "allure-commandline": "^2.36.0",
     "allure-js-commons": "^3.0.0-beta.7",
-    "rimraf": "^5.0.5"
+    "allure-playwright": "^3.0.0-beta.7",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
-  "keywords": ["playwright", "typescript", "pom", "data-driven", "allure"],
+  "keywords": [
+    "playwright",
+    "typescript",
+    "pom",
+    "data-driven",
+    "allure"
+  ],
   "author": "QA Team",
   "license": "MIT"
 }
