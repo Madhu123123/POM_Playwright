@@ -131,6 +131,19 @@ No code changes needed — just edit the Excel file!
 
 ---
 
+## 📸 Screenshots
+
+### Home Page Loading (TC001)
+![Home Page](docs/screenshots/home_page.png)
+
+### User Registration (TC002)
+![Registration Form](docs/screenshots/registration_form.png)
+
+### Account Successfully Created
+![Account Created](docs/screenshots/account_created.png)
+
+---
+
 ## 🧩 Key Framework Concepts
 
 ### Semantic Locators (getByRole)
